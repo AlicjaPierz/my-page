@@ -1,0 +1,44 @@
+* {
+  margin: 0 auto;
+  scroll-behavior: smooth;
+}
+
+.flex {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.photo {
+  width: 197px;
+  height: 197px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.name {
+  color: #fff;
+}
+
+section {
+  height: 100vh;
+}
+
+.header {
+  background-color: gray;
+  background-image: url("./img/dynamic-wang-EHnrP9CanuQ-unsplash.jpg");
+}
+
+.nav-menu {
+  flex-direction: row;
+  align-content: space-between;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  background-color: bisque;
+  height: 50px;
+  text-align: left;
+  width: 100%;
+  z-index: 99;
+}
