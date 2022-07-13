@@ -5,36 +5,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
     <title>Alicja Pierzchala</title>
   </head>
+  
   <body>
     <div class="container">
+
+      <!-- header -->
       <section id="home" class="flex header">
-        <div class="photo"></div>
+        <header class="flex"> 
+          <div class="photo"></div>
         <div class="name">Alicja Pierzchała</div>
+        <div class="front-name">Junior Front-End Developer</div>
+        </header>
         <nav class="flex nav-menu">
-          <button><a href="#about">About</a></button>
-          <button><a href="#skills">Skills</a></button>
-          <button><a href="#portfolio">Portfolio</a></button>
-          <button><a href="#contact">Contact</a></button>
-        </nav>
+          <a href="#about"><button class="hover">About</button></a>
+          <a href="#skills"><button class="hover">Skills</button></a>
+          <a href="#portfolio"><button class="hover">Portfolio</button></a>
+          <a href="#contact"><button class="hover">Contact</button></a>
+        </nav>       
       </section>
 
-        <section id="about" class="flex"><h1>About me</h1></section>
-        <section id="skills" class="flex"><h1>Skills</h1></section>
-        <section id="portfolio" class="flex"><h1>Portfolio</h1></section>
-        <section id="contact" class="flex">
-          <h1>Contact</h1>
-          <form>
+        <!-- o mnie -->
+        <section id="about" >
+          <div  class="main flex">
+            <h1>About me</h1>
+          
+          <div class="dash"></div> 
+          </div>       
+        </section>
+
+        <!-- umiejętności -->
+        <section id="skills" >
+          <div  class="main flex">
+            <h1>Skills</h1>
+          </div>
+          <div class="dash"></div>
+        </section>
+
+        <!-- portfolio -->
+        <section id="portfolio" >
+          <div  class="main flex">
+            <h1>Portfolio</h1>
+          </div>
+          <div class="dash"></div>
+          </section>
+
+        <!-- kontakt -->
+        <section id="contact" >
+          <div class="main flex">
+            <h1>Contact</h1>
+          </div>
+          <div class="dash"></div>
+
+          <!-- formularz -->
+          <form class="mail-form flex">
             <input placeholder="Name">
             <input placeholder="E-mail">
-            <input placeholder="Leave a massage">
+            <textarea placeholder="Leave a massage"></textarea>
             <input class="button" type="submit" value="SUBMIT"></input>
           </form>
         </section>
       
-      <footer class="flex footer">
-        <button><a href="#home">Home</a></button>
+      <footer class="flex">
+        <a href="#home"><button class="up">UP</button></a>
         <div class="links">linki github linkedin</div>
       </div>
     </footer>
